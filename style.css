@@ -1,0 +1,45 @@
+body,html{
+    margin: 0;
+    font-family: arial;
+    font-size: 18px;
+}
+
+#header{
+background:rgba(56, 44, 211, 0.8);
+padding: 20px 0;
+
+}
+.container{
+width: 80%;
+margin: 0 auto;
+}
+
+#header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav{}
+
+.main-nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav ul li{
+    float: left;
+    margin-left: 35px;
+    font-size: 18px;
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner img{
+    max-width: 100%;
+    vertical-align: top;
+
+}
